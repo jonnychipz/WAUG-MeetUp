@@ -2,13 +2,14 @@
 ## Side Deck Contains:
 
 #### Intro and Exit Slides
+
 #### John Lunn - BT Enterprise - Cloud Adoption Framework for Azure
 
-(Awaiting) Chris Whitehead - Microsoft - Enterprise Scale
+#### Chris Whitehead - Microsoft - Enterprise Scale
 
 (Awaiting) Richard Griffiths - Confised.com - Azure Blueprints
 
-### RSVP - NEXT MEETUP - [RSVP-HERE](https://www.meetup.com/MSFT-Stack/events/272699410/) 12th November 2020
+## RSVP - NEXT MEETUP - [RSVP-HERE](https://www.meetup.com/MSFT-Stack/events/272699410/) 12th November 2020
 
 ## Don't forget to follow our socials: </br>
 Twitter: [@welshazure](http://www.twitter.com/welshazure) </br>
