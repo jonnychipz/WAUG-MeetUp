@@ -7,7 +7,7 @@
 
 #### Chris Whitehead - Microsoft - Enterprise Scale
 
-(Awaiting) Richard Griffiths - Confised.com - Azure Blueprints
+#### Richard Griffiths - Confised.com - Azure Blueprints
 
 ## RSVP - NEXT MEETUP - [RSVP-HERE](https://www.meetup.com/MSFT-Stack/events/272699410/) 12th November 2020
 

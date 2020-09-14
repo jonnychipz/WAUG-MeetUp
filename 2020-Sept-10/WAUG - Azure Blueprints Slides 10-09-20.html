@@ -1,0 +1,418 @@
+﻿
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="keywords" content="remark,remarkjs,markdown,slideshow,presentation" />
+    <meta name="description" content="A simple, in-browser, markdown-driven slideshow tool." />
+    <title>Remark</title>
+    <style>
+      @import url(https://fonts.googleapis.com/css?family=Droid+Serif);
+      @import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
+      @import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
+
+      body {
+        font-family: 'Droid Serif';
+      }
+      h1, h2, h3 {
+        font-family: 'Yanone Kaffeesatz';
+        font-weight: 400;
+        margin-bottom: 0;
+      }
+      .remark-slide-content h1 { font-size: 3em; }
+      .remark-slide-content h2 { font-size: 2em; }
+      .remark-slide-content h3 { font-size: 1.6em; }
+      .footnote {
+        position: absolute;
+        bottom: 3em;
+      }
+      li p { line-height: 1.25em; }
+      .red { color: #fa0000; }
+      .large { font-size: 2em; }
+      a, a > code {
+        color: rgb(249, 38, 114);
+        text-decoration: none;
+      }
+      code {
+        background: #e7e8e2;
+        border-radius: 5px;
+      }
+      .remark-code, .remark-inline-code { font-family: 'Ubuntu Mono'; }
+      .remark-code-line-highlighted     { background-color: #373832; }
+      .pull-left {
+        float: left;
+        width: 47%;
+      }
+      .pull-right {
+        float: right;
+        width: 47%;
+      }
+      .pull-right ~ p {
+        clear: both;
+      }
+      #slideshow .slide .content code {
+        font-size: 0.8em;
+      }
+      #slideshow .slide .content pre code {
+        font-size: 0.9em;
+        padding: 15px;
+      }
+      .inverse {
+        background: #272822;
+        color: #777872;
+        text-shadow: 0 0 20px #333;
+      }
+      .inverse h1, .inverse h2 {
+        color: #f3f3f3;
+        line-height: 0.8em;
+      }
+
+      /* Slide-specific styling */
+      #slide-inverse .footnote {
+        bottom: 12px;
+        left: 20px;
+      }
+      #slide-how .slides {
+        font-size: 0.9em;
+        position: absolute;
+        top:  151px;
+        right: 140px;
+      }
+      #slide-how .slides h3 {
+        margin-top: 0.2em;
+      }
+      #slide-how .slides .first, #slide-how .slides .second {
+        padding: 1px 20px;
+        height: 90px;
+        width: 120px;
+        -moz-box-shadow: 0 0 10px #777;
+        -webkit-box-shadow: 0 0 10px #777;
+        box-shadow: 0 0 10px #777;
+      }
+      #slide-how .slides .first {
+        background: #fff;
+        position: absolute;
+        top: 20%;
+        left: 20%;
+        z-index: 1;
+      }
+      #slide-how .slides .second {
+        position: relative;
+        background: #fff;
+        z-index: 0;
+      }
+
+      /* Two-column layout */
+      .left-column {
+        color: #777;
+        width: 20%;
+        height: 92%;
+        float: left;
+      }
+        .left-column h2:last-of-type, .left-column h3:last-child {
+          color: #000;
+        }
+      .right-column {
+        width: 75%;
+        float: right;
+        padding-top: 1em;
+      }
+    </style>
+  </head>
+  <body>
+    <textarea id="source">
+
+class: center, middle
+
+# Welsh Azure User Group Presents
+
+# ** Deploying a Data Infrastructure with Blueprints **
+
+Richard Griffiths
+
+Data Solutions Architect at Confused.com
+
+???
+
+---
+
+# Overview
+
+1. What is an Azure blueprint? 
+
+2. Demo: Creating a basic blueprint
+
+3. RBAC & Policies
+
+4. Demo: Policy
+
+5. Powershell Orchestration
+
+6. Demo: Output Blueprint to Code
+
+7. Data blueprint tour
+
+8. Yaml Pipeline
+
+9. Demo: App using Infrastructure
+
+10. Useful Links
+
+???
+
+---
+
+# Quick Interlude Demo!!!
+
+* Not enough time to kick off all builds during the talk
+
+* Can we make an entire secure modern data estate infrastructure in 10 minutes? 
+
+* Yes we can! 
+
+* **All we need is an azure subscription and azure devops account**
+
+* **Demo:** Create environment AD groups and then kick off blueprint build
+
+* Revisit later... 
+
+<img src="..\Docs\Images\tbc.jpg" alt="TBC" width="350" height="250"  class="center">
+
+
+???
+
+
+---
+
+# What is an Azure blueprint?
+
+* An Azure blueprint defines a skeleton infrastructure or a landing zone
+
+* They contain resources, RBAC security and Policies which collectively are called **Artifacts**
+
+* They can be created using multiple methods, including the portal, Powershell and the Azure CLI
+
+* The code output is using familiar JSON ARM templates
+
+* A blueprint is developed, then published and then assigned to a subscription
+
+* A blueprint can be scoped to a subscription or management group
+
+
+???
+
+
+---
+
+# Demo: Creating a basic blueprint
+
+<img src="..\Docs\Images\DuploBlueprint.jpg" alt="Duplo Blueprint" width="400" height="450"  class="center">
+
+
+???
+
+1. Go to blueprints in the portal
+2. Create a blueprint definition
+3. Give it a description and locate it on the subscription
+4. Add 2 resource groups
+5. Add an RBAC at resource group level for owner
+6. Add a policy at resource group level for allowed location
+7. Add a policy at subscription level for tag required
+8. Save draft
+9. Publish with a version number
+10. Assign to subscription
+11. Add a storage account ARM - ensure Owner tags applied
+11. Create new version 0.2
+12. Update assignment with new version
+
+---
+
+# RBAC & Policies
+
+* Blueprints allow you to deploy RBAC which you can't do with ARM templates
+
+* RBAC - Role Based Access Control 
+
+* RBAC - Allows you to cotnrol who has access to your estate
+
+* Policies allow you to control the behaviour of your estate
+
+* This can be done at the resource group or subscription level
+  e.g. 
+      * Allowed resource types
+      * Required tags
+      * Storage account must be on a virtual network
+      * and many many more... 
+
+???
+
+---
+
+# Demo: Policy
+
+<img src="..\Docs\Images\Police.jpg" alt="Policy" width="700" height="450"  class="center">
+
+???
+
+1. Create a storage account in East US in resource group with policy for allowed regions
+2. Create a resource without an owner tag in any resource group
+
+---
+
+# Powershell Orchestration
+
+* There are a number of cmdlets to orchestrate blueprints
+
+* **Demo:** Export-BlueprintToCode
+
+* Deployment done through combination of:
+  * Get-AzBlueprintAssignment 
+  * New-AzBlueprintAssignment 
+  * Set-AzBlueprintAssignment 
+
+* Secret sauce added to Set-AzBlueprintAssignment to pass in environment specific AD groups
+
+* This means don't have to pass in AD object GUIDs
+
+???
+
+---
+
+# Powershell Orchestration
+
+* Secret sauce...
+
+```powershell
+Write-Verbose "Get environment specific AD groups..."
+$adgroups = @{}
+$rbacfunctions = @('own','con','rdr')
+$resourcegroups = @('datafactory','vnet','databricks','datalake','events')
+foreach($resourcegroup in $resourcegroups)
+{
+    foreach($function in $rbacfunctions)
+    {
+        $adparamname= "rbac_"+${resourcegroup}+${function}
+        $adgroupname = ${environment}+'azrg'+${resourcegroup}+${function}
+        $adid = (Get-AzADGroup -SearchString $adgroupname).id
+        $adgroups += @{$adparamname=$adid}
+    }
+}
+$bpParameters = @{environment=$environment;}+$adgroups
+```
+
+* Applied here... 
+
+```powershell
+$bpAssignment = (Set-AzBlueprintAssignment -Name $blueprintAssignmentName -Blueprint $blueprint -SubscriptionId $subscriptionId -Location $location -Lock $lock -Parameter $bpParameters)
+```
+
+???
+
+---
+
+# Data Blueprint Tour
+
+* Decided to use blueprints to make a modern data estate
+
+* Code setup acts as a neat container for all your ARM templates
+
+* Blueprint.json is where you define all your parameters and resource groups
+
+* These central parameters then get mapped to each ARM so can be shared
+
+* The set blueprint assignment applies this using the environment parameter to change environment
+
+
+???
+
+---
+
+# YAML Pipeline
+
+* Pre-requisites: Service connection in azure devops mapped to app registration with appropriate permissions
+
+* Allows you to define your deployment pipeline in code
+
+* References the custom powershell already defined
+
+* Build pipeline number becomes the blueprint version so auditable
+
+* Basically from a single codebase can go from zero-hero for an entire data infrastructure!
+
+* **Demo:** Deploy prod environment
+
+* **Note:** Prod going to same subscription, you may want to separate
+
+* **Demo:** Application storing data
+
+
+???
+
+raw//{EventHub}/{Year}/{Month}/{Day}/{EventHub}_{Year}{Month}{Day}_{Hour}{Minute}{Second}_{PartitionId}_{Namespace}
+
+---
+
+# Summary
+
+* Demonstrated the development lifecyle for a blueprint
+
+* Applying this to a modern data estate including Databricks
+
+* Deploying the entire estate through code with YAML pipelines
+
+* **All you need is an azure subscription and azure devops account!**
+
+* If people are interested in the sequel where the stream goes into delta files... let us know! 
+
+<img src="..\Docs\Images\Delta.png" alt="Delta" width="250" height="250"  class="center">
+
+???
+
+---
+
+# Useful Links
+
+### Useful Tools For Blueprints
+
+* [Visual Studio Code Extension](https://marketplace.visualstudio.com/items?itemName=aminecharot.azure-blueprints-generator)
+* [Azure Devops Task](https://marketplace.visualstudio.com/items?itemName=nepeters.azure-blueprints)
+
+### Useful Links About Blueprints
+
+* [Brown Bag](https://web.microsoftstream.com/video/7aebeed5-4699-4307-bb7a-0c5fc7e713cc)
+* [Azure Blueprints & Policy to get DevOps right](https://www.youtube.com/watch?v=OiOXlgFNgDo)
+* [Azure Blueprints & Policy to get DevOps right(short)](https://www.youtube.com/watch?v=OiOXlgFNgDo)
+* [Define the guardrails for success with Azure Blueprints](https://www.youtube.com/watch?v=4f8sCpy86dE)
+* [Essential Tips for a Large Blueprint](https://azsec.azurewebsites.net/2020/01/04/essential-tips-for-building-a-large-azure-blueprint/)
+* [Blueprint vs Terraform](https://itnext.io/iac-azure-blueprints-and-terraform-7349ecf8d61c)
+* [Cloudskills Blueprints](https://cloudskills.io/blog/intro-azure-blueprints)
+
+???
+
+---
+
+# Useful Links Contnued
+
+* [Network Watcher RG And Policy Annoyance](https://www.miru.ch/when-your-azure-policy-interferes-with-azure-network-watcher/)
+* [More on Annoying Network Watcher RG](https://blog.ryanbetts.co.uk/2020/01/azure-network-watcher-default.html)
+* [Why you need to build landing zones](https://www.wesleyhaakman.org/why-you-need-to-build-landing-zones-and-use-azure-blueprints/)
+* [Azure Blueprints level parameters and why you should use them](https://www.wesleyhaakman.org/azure-blueprints-level-parameters/)
+* [Deploying and managing your first Landing zone with Azure Blueprints](https://www.wesleyhaakman.org/deploying-and-managing-your-first-landing-zone-with-azure-blueprints/)
+* [Deploying and managing your Azure Blueprints as Code](https://www.wesleyhaakman.org/deploying-and-managing-your-azure-blueprints-as-code/)
+* [Import and export blueprint definitions with PowerShell](https://docs.microsoft.com/en-us/azure/governance/blueprints/how-to/import-export-ps) 
+* [Az Blueprint Module](https://docs.microsoft.com/en-us/azure/governance/blueprints/how-to/manage-assignments-ps#add-the-azblueprint-module)
+* [What is Azure Blueprints](https://docs.microsoft.com/en-us/azure/governance/blueprints/overview)
+* [Azure Blueprints via Azure DevOps Pipeline​](https://www.linkedin.com/pulse/azure-blueprints-via-devops-pipeline-paul-towler)
+* [Blueprints Azure DevOps Project Example](https://dev.azure.com/mrptsai/Blueprints)
+* [Using blueprints with Azure DevOps pipelines](https://github.com/Azure/azure-blueprints/tree/master/pipelines-scripts)
+
+???
+
+    </textarea>
+    <script src="https://gnab.github.io/remark/downloads/remark-latest.min.js">
+    </script>
+    <script>
+      var slideshow = remark.create();
+    </script>
+  </body>
+</html>
