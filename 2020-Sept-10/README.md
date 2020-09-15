@@ -17,4 +17,4 @@ Richard Griffiths - Confused.com - Azure Blueprints
 Twitter: [@welshazure](http://www.twitter.com/welshazure) </br>
 Linkedin: [WAUG](https://www.linkedin.com/groups/13866357/)
 
-![Logo](https://secure.meetupstatic.com/photos/event/9/c/4/f/600_492160015.jpeg)
+![Logo](images/logo.png)
