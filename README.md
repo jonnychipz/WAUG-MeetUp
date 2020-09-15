@@ -6,7 +6,7 @@ We rally appreciate you joining usand hope you found our sessions informative.
 
 ✍️ [2020-Sept-10](2020-Sept-10/README.md)
 
-![Logo](logo.png)
+![Logo](logo.PNG)
 
 Don't forget to follow our socials: </br>
 Twitter: [@welshazure](http://www.twitter.com/welshazure) </br>
