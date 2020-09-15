@@ -4,13 +4,13 @@
 #### Intro and Exit Slides
 
 #### John Lunn - BT Enterprise - Cloud Adoption Framework for Azure
-[Download](../WAUG - Meetup Slides 10-09-20.pdf)
+[Download](WAUG - Meetup Slides 10-09-20.pdf)
 
 #### Chris Whitehead - Microsoft - Enterprise Scale
-[Download](../WAUG - Meetup Slides 10-09-20.pdf)
+[Download](WAUG - Meetup Slides 10-09-20.pdf)
 
 #### Richard Griffiths - Confised.com - Azure Blueprints
-[Link](../WAUG - Azure Blueprints Slides 10-09-20.html)
+[Link](WAUG - Azure Blueprints Slides 10-09-20.html)
 
 [DOWNLOAD HERE]
 
