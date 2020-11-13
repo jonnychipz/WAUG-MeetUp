@@ -1,4 +1,4 @@
-# WAUG-MeetUp
+# WAUG-MeetUp 10/09/20
 
 ## Side Deck Contains
 
@@ -9,6 +9,8 @@ John Lunn - BT Enterprise - Cloud Adoption Framework for Azure
 Chris Whitehead - Microsoft - Enterprise Scale
 
 Richard Griffiths - Confused.com - Azure Blueprints
+
+YouTube: [Recorded Session](https://youtu.be/EHjh4IvFE_g)
 
 #### RSVP - NEXT MEETUP - [RSVP-HERE](https://www.meetup.com/MSFT-Stack/events/272699410/) 12th November 2020
 
