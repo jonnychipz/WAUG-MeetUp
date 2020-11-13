@@ -2,7 +2,10 @@
 
 Repository for all the Welsh Azure User Group Meet Up Slides and information.
 
-We rally appreciate you joining usand hope you found our sessions informative.
+We really appreciate you joining us and hope you found our sessions informative.
+
+Pleas ehelp us spread the word and fun on social media!
+
 ![Logo](logo.PNG)
 
 ✍️ [2020-Dec-10 - SignUp](https://www.meetup.com/MSFT-Stack/events/274527172/)</br>
