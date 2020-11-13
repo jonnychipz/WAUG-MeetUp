@@ -9,6 +9,7 @@ Paul Connah / Richard Lawson  - Admiral Group - WVD
 (TBA) Dave Phelps / Matt Fortunka - Microsoft - Logic Apps
 
 YouTube: [Recorded Session](https://youtu.be/OXvlOQWYRgw)
+Slides: [Download PDF](https://github.com/jonnychipz/WAUG-MeetUp/blob/master/2020-Nov-12/WAUG%20-%20Meetup%20Slides%2012-11-20.pdf)
 
 #### RSVP - NEXT MEETUP - [RSVP-HERE](https://www.meetup.com/MSFT-Stack/events/274527172/) A Very Merry DevOps with Abel Wang and April Edwards - 10th December 2020
 

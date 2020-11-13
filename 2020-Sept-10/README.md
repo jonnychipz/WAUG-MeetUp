@@ -11,6 +11,8 @@ Chris Whitehead - Microsoft - Enterprise Scale
 Richard Griffiths - Confused.com - Azure Blueprints
 
 YouTube: [Recorded Session](https://youtu.be/EHjh4IvFE_g)
+Slides: [Download PDF](https://github.com/jonnychipz/WAUG-MeetUp/blob/master/2020-Sept-10/WAUG%20-%20Meetup%20Slides%2010-09-20.pdf)
+BluePrint HTML: [Open HTML](https://github.com/jonnychipz/WAUG-MeetUp/blob/master/2020-Sept-10/WAUG%20-%20Azure%20Blueprints%20Slides%2010-09-20.html)
 
 #### RSVP - NEXT MEETUP - [RSVP-HERE](https://www.meetup.com/MSFT-Stack/events/272699410/) 12th November 2020
 
