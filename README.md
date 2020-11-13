@@ -4,7 +4,7 @@ Repository for all the Welsh Azure User Group Meet Up Slides and information.
 
 We really appreciate you joining us and hope you found our sessions informative.
 
-Pleas ehelp us spread the word and fun on social media!
+Please help us spread the word and fun on social media!
 
 ![Logo](logo.PNG)
 
