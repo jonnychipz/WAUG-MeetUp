@@ -2,7 +2,12 @@
 
 ## Side Deck Contains
 
-#### RSVP - NEXT MEETUP - [RSVP-HERE](https://www.meetup.com/MSFT-Stack/events/274527172/) A Very Merry DevOps with Abel Wang and April Edwards - 10th December 2020
+Intro and Exit Slides
+
+YouTube: [Recorded Session](https://youtu.be/QUn0i8ynKgQ)</br>
+Slides: [Download PDF](https://github.com/jonnychipz/WAUG-MeetUp/blob/master/2020-Dec-10/WAUG%20-%20Meetup%20Slides%2010-12-20.pdf)</br>
+
+#### RSVP - NEXT MEETUP - [RSVP-HERE](https://www.meetup.com/MSFT-Stack/events/274527184/) Welsh Azure User Group January MeetUp - 21st January 2021
 
 ![Logo](https://github.com/jonnychipz/WAUG-MeetUp/blob/master/2020-Dec-10/A%20Very%20Merry%20DevOps%20-%20101220.png)
 
