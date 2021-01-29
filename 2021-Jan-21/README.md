@@ -3,7 +3,9 @@
 ## Side Deck Contains
 
 Intro and Exit Slides
+
 Christos Matskas - Identity for Developers
+
 Graham Martin - Azure Synapse and Purview Overview
 
 YouTube: [Recorded Session](https://youtu.be/xy-rtJreiF8)</br>
