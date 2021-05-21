@@ -10,7 +10,7 @@ Intro and Exit Slides
 
 
 Slides: [Download PDF](https://github.com/jonnychipz/WAUG-MeetUp/blob/master/2021-May-20/WAUG%20-%20Meetup%20Slides%2020-05-21.pdf)</br>
-DC Tour Slides: [Download PDF](https://github.com/jonnychipz/WAUG-MeetUp/blob/master/2021-May-20/DatacenterExperienceH22021MWAUG.pdf)</br>
+DC Tour Slides: [Download PDF](https://github.com/jonnychipz/WAUG-MeetUp/blob/master/2021-May-20/DatacenterExperienceH22021MWAUG.PDF)</br>
 
 YouTube: [Recorded Session](https://youtu.be/wqXWvtGRzjU12)</br>
 
