@@ -2,7 +2,15 @@
 
 ## Side Deck Contains
 
-Slides to be uploaded soon
+Intro and Exit Slides
+
+6.45pm - "Lightning Talk" - Anirban Ganguly - Kubernetes it's not that hard
+7.00pm - "Lightning Talk" - Vukašin Terzić - Creating Azure Visio Diagrams
+7.15pm - "Lightning Talk" - Matthew Fortunka - Rest-Client: The better Postman for VSCode
+7.30pm - "Feature Talk" - Peter Gallagher & Liam Gulliver - Developing a Robot Arm with .NET and controlling it via Azure
+
+
+Slides: [Download PDF](https://github.com/jonnychipz/WAUG-MeetUp/blob/master/2021-Apr-15/WAUG%20-%20Meetup%20Slides%2015-04-21.pdf)</br>
 
 YouTube: [Recorded Session](https://youtu.be/wqXWvtGRzjU)</br>
 
