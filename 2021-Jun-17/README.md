@@ -9,7 +9,7 @@ Slides: [Download PDF](https://github.com/jonnychipz/WAUG-MeetUp/blob/master/202
 YouTube: [Recorded Session](https://youtu.be/rHIrfgpZawg)</br>
 
 
-#### RSVP - NEXT MEETUP - [RSVP-HERE](https://www.meetup.com/MSFT-Stack/events/276168866/) Welsh Azure User Group May Virtual Event - 15th July 2021
+#### RSVP - NEXT MEETUP - [RSVP-HERE](https://www.meetup.com/MSFT-Stack/events/276168866/) Welsh Azure User Group June Virtual Event - 15th July 2021
 
 #### Don't forget to follow our socials: </br>
 
