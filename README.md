@@ -8,7 +8,8 @@ Please help us spread the word and fun on social media!
 
 ![Logo](logo.PNG)
 
-✍️ [2021-Oct-29 - SignUp](https://www.meetup.com/MSFT-Stack/events/280684865/) </br>
+✍️ [2021-Nov-17 - SignUp](https://www.meetup.com/MSFT-Stack/events/280684868/) </br>
+✍️ [2021-Oct-20](2021-Oct-29/README.md) </br>
 ✍️ [2021-Sept-29](2021-Sept-29/README.md) </br>
 ✍️ [2021-Aug-11](2021-Aug-11/README.md) </br>
 ✍️ [2021-Jul-15](2021-Jul-15/README.md) </br>
