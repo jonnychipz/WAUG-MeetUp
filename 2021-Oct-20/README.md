@@ -8,8 +8,7 @@ Slides: [Download PDF](https://github.com/jonnychipz/WAUG-MeetUp/blob/master/202
 
 YouTube: [Recorded Session](https://youtu.be/7v_K8KzbSRs)</br>
 
-
-#### RSVP - NEXT MEETUP - [RSVP-HERE](https://www.meetup.com/MSFT-Stack/events/280684868/) Welsh Azure User Group October Virtual Event - 17th November 2021
+### RSVP - NEXT MEETUP - [RSVP-HERE](https://www.meetup.com/MSFT-Stack/events/280684868/) Welsh Azure User Group October Virtual Event - 17th November 2021
 
 #### Don't forget to follow our socials: </br>
 

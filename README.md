@@ -1,4 +1,4 @@
-# Welcom to the WAUG-MeetUp Github Repo
+# Welcome to the WAUG-MeetUp Github Repo
 
 Repository for all the Welsh Azure User Group Meet Up Slides and information.
 
@@ -8,7 +8,8 @@ Please help us spread the word and fun on social media!
 
 ![Logo](logo.PNG)
 
-✍️ [2021-Nov-17 - SignUp](https://www.meetup.com/MSFT-Stack/events/280684868/) </br>
+✍️ [2021-Dec-15 - SignUp](https://www.meetup.com/MSFT-Stack/events/280684872/) </br>
+✍️ [2021-Nov-17](2021-Nov-17/README.md) </br>
 ✍️ [2021-Oct-20](2021-Oct-29/README.md) </br>
 ✍️ [2021-Sept-29](2021-Sept-29/README.md) </br>
 ✍️ [2021-Aug-11](2021-Aug-11/README.md) </br>
@@ -22,8 +23,6 @@ Please help us spread the word and fun on social media!
 ✍️ [2020-Dec-10](2020-Dec-10/README.md)</br>
 ✍️ [2020-Nov-12](2020-Nov-12/README.md)</br>
 ✍️ [2020-Sept-10](2020-Sept-10/README.md) </br>
-
-
 
 Don't forget to follow our socials: </br>
 Twitter: [@welshazure](http://www.twitter.com/welshazure) </br>
