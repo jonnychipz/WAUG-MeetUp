@@ -6,7 +6,7 @@ Intro and Exit Slides
 
 Slides: [Download PDF](https://github.com/jonnychipz/WAUG-MeetUp/blob/master/2022-02-16/WAUG%20-%20Meetup%20Slides%2016-02-22.pdf)</br>
 
-YouTube: [Recorded Session]((https://youtu.be/***))</br>
+YouTube: [Recorded Session]((https://youtu.be/2f4QRfxWPPs))</br>
 
 ### RSVP - NEXT MEETUP - [RSVP-HERE](https://www.meetup.com/MSFT-Stack/events/284017257/) Welsh Azure User Group March Virtual Event - 16th March 2022
 
